@@ -25,14 +25,14 @@ public class ArraysCompare {
         
     }
     public static boolean equals(int[][] m1, int[][] m2) {
-        for (int i = 0; i < m1.length; i++) {         // go through rows
-            for (int j = 0; j < m1[i].length; j++) {  // go through columns
+        for (int i = 0; i < m1.length; i++) {         
+            for (int j = 0; j < m1[i].length; j++) {  
                 if (m1[i][j] != m2[i][j]) {
-                    return false;   // if any number is different
+                    return false;   
                 }
             }
         }
-        return true;  // all numbers matched
+        return true;  
 
 }
 
